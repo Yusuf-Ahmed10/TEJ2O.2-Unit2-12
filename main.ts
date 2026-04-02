@@ -6,7 +6,7 @@
 */
 
 let distance = 0
-let strip = neopixel.create(DigitalPin.P1, 8, NeoPixelMode.RGB)
+const strip = neopixel.create(DigitalPin.P1, 8, NeoPixelMode.RGB)
 
 input.onButtonPressed(Button.A, function () {
     // save the current distance in cm to a variable
