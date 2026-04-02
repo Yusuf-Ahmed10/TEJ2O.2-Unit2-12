@@ -1,12 +1,12 @@
 {
-    "name": "TEJ2O ⇢ Unit #X-YY",
+    "name": "TEJ2O ⇢ Unit #2-12",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.8",
-        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6"
     },
     "files": [
         "main.ts",
